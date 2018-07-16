@@ -1,0 +1,203 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url(../img/login-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 979px) {
+  body {
+    padding-top: 80px;
+  }
+}
+
+.navbar .navbar-inner {
+  height: 80px;
+  background: white;
+  filter: none;
+}
+
+.navbar .nav {
+  margin-top: 20px;
+}
+
+.navbar .message
+{
+	color:#60acb9;
+	padding-top:25px;
+}
+
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-top: -185px;
+  margin-left: -235px;
+  padding: 25px;
+  width: 420px;
+  height: auto;
+  background: white;
+  text-align: center;
+}
+.update {
+	padding-top:-4
+	0px;
+}
+.login-form legend {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+
+.login-form .body {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.login-form .footer {
+  margin-top: 20px;
+}
+
+.login-form .footer .checkbox.inline {
+  display: inline;
+}
+
+.login-form .footer .checkbox.inline input[type="checkbox"] {
+  float: none;
+  margin-top: -4px;
+}
+.login-form .footer .btn {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-left: 15px;
+  padding: 7px 25px;
+  background-image: none;
+}
+footer.white {
+  padding-top: 20px;
+  height: 50px;
+  background: white;
+  text-align: center;
+}
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+}
+
+.login-form legend {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.login-form label {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+
+footer.navbar-fixed-bottom {
+  font-size: 16px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 980px) {
+  .navbar {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .navbar .brand {
+    margin-top: 0;
+  }
+  .navbar .navbar-inner {
+    height: auto;
+  }
+
+  .navbar .nav > li > a:hover {
+    color: white;
+  }
+
+  #login-wraper {
+    position: relative;
+    top: 0;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 495px) {
+  #login-wraper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+	.update{
+		text-align:center;
+	}
+
+}
+
+body .btn.btn-primary,
+body .btn.btn-navbar {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #009aa7;
+  background-image: -moz-linear-gradient(top, #00adbb, #007e88);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00adbb), to(#007e88));
+  background-image: -webkit-linear-gradient(top, #00adbb, #007e88);
+  background-image: -o-linear-gradient(top, #00adbb, #007e88);
+  background-image: linear-gradient(to bottom, #00adbb, #007e88);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00adbb', endColorstr='#ff007e88', GradientType=0);
+  border-color: #007e88 #007e88 #00373b;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #007e88;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+body .btn.btn-primary:hover,
+body .btn.btn-navbar:hover,
+body .btn.btn-primary:active,
+body .btn.btn-navbar:active,
+body .btn.btn-primary.active,
+body .btn.btn-navbar.active,
+body .btn.btn-primary.disabled,
+body .btn.btn-navbar.disabled,
+body .btn.btn-primary[disabled],
+body .btn.btn-navbar[disabled] {
+  color: #ffffff;
+  background-color: #007e88;
+  *background-color: #00666e;
+}
+body .btn.btn-primary:active,
+body .btn.btn-navbar:active,
+body .btn.btn-primary.active,
+body .btn.btn-navbar.active {
+  background-color: #004f55 \9;
+}

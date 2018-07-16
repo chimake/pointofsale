@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:/laragon/www/basev2/.idea/basev2.iml" filepath="C:/laragon/www/basev2/.idea/basev2.iml" />
+      <module fileurl="file://C:/laragon/www/basev2.1/.idea/basev2.1.iml" filepath="C:/laragon/www/basev2.1/.idea/basev2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pos.iml" filepath="$PROJECT_DIR$/.idea/pos.iml" />
+    </modules>
+  </component>
+</project>

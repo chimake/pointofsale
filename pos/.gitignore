@@ -1,0 +1,10 @@
+application/config/database.php
+application/config/config.php
+.htaccess
+!tools/.htaccess
+!database/.htaccess
+diff.diff
+.DS_Store
+robots_allow.txt
+PHP-Point-Of-Sale-Prev
+.PHP-Point-Of-Sale-Prev

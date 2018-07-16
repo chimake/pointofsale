@@ -1,0 +1,1 @@
+<?php echo lang('login_subscription_terminated'); ?>

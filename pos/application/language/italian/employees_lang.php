@@ -1,0 +1,35 @@
+<?php
+$lang['employees_employee']='Operatore';
+$lang['employees_new']='Nuovo Operatore';
+$lang['employees_update']='Aggiorna Operatore';
+$lang['employees_confirm_delete']='Sei sicuro di voler cancellare gli operatori selezionati?';
+$lang['employees_none_selected']='Non hai selezionato alcun operatore da cancellare';
+$lang['employees_error_adding_updating'] = 'Errore durante aggiunta / aggiornamento dei operatori';
+$lang['employees_successful_adding']='Hai aggiunto un operatore';
+$lang['employees_successful_updating']='Hai modificato un operatore';
+$lang['employees_successful_deleted']='Eliminato';
+$lang['employees_one_or_multiple']='Operatore(i)';
+$lang['employees_cannot_be_deleted']='Impossibile cancellato operatori selezionati, uno o più dei operatori hanno effetuato vendite o si stai cercando di eliminare te stesso:)';
+$lang['employees_username']='Nome utente';
+$lang['employees_password']='Parola d&#39;ordine';
+$lang['employees_repeat_password']='Ripeti Password';
+$lang['employees_username_required']='Username è un campo obbligatorio';
+$lang['employees_username_minlength']='Username deve essere di almeno 5 caratteri';
+$lang['employees_username_exists']='Username esiste già';
+$lang['employees_password_required']='Password è obbligatoria';
+$lang['employees_password_minlength']='Passwords deve contenere almeno 8 caratteri';
+$lang['employees_password_must_match']='Passwords incorretta';
+$lang['employees_basic_information']='Informazioni Operatore';
+$lang['employees_login_info']='Operatore informazioni accesso';
+$lang['employees_permission_info']='Operatore Permessi ed Accessi';
+$lang['employees_permission_desc']='Selezionare le caselle di seguito per concedere ccesso ai moduli';
+$lang['employees_error_updating_demo_admin'] = 'Non è possibile modificare utente admin demo';
+$lang['employees_error_deleting_demo_admin'] = 'Non è possibile eliminare utente admin demo';
+$lang['employees_duplicate_exists'] = 'Nome operatore simile esiste già. Vuoi continuare?';
+$lang['employees_cleanup_old_customers'] = 'Elimina vecchi operatori';
+$lang['employees_cleanup_sucessful'] = 'Operatori eliminati';
+$lang['employees_confirm_cleanup'] = 'Sei sicuro di voler eliminare tutti gli operatori?';
+$lang['employees_locations'] = 'Sedi';
+$lang['employees_one_location_required'] = 'È necessaria almeno una posizione per un dipendente';
+$lang['employees_cannot_delete_default_user'] = 'Non è possibile eliminare l&#39;utente di default';
+?>

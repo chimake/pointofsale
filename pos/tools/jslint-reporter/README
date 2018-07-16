@@ -1,0 +1,28 @@
+JSLint Reporter
+Node.js wrapper for JSLint (http://jslint.com)
+
+
+Usage:
+
+  $ node wrapper.js [options] <filepath>
+
+(use `node wrapper.js --upgrade` to generate jslint.js alongside wrapper.js)
+
+
+Options:
+
+  --<name>[=<value>]
+    names as per http://www.jslint.com/lint.html#options
+    (e.g. "--vars --predef=foo,bar,baz --maxlen=80")
+
+  --upgrade
+    download latest version of JSLint
+
+  --verbose
+    display additional information
+
+  --version
+    display version numbers for both JSLint Reporter and JSLint
+
+  --help
+    display this usage information

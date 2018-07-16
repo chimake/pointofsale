@@ -1,0 +1,100 @@
+<?php
+$lang['config_info']='Enregistrer les Informations de Configuration';//The good translation
+$lang['config_company']='Nom de la Compagnie';
+$lang['config_address']='Adresse de la Compagnie';
+$lang['config_phone']='Teléphone de la Compagnie';//The good translation
+$lang['config_website']='Site Web';
+$lang['config_fax']='télécopie';
+$lang['config_default_tax_rate']='% de taxe par défaut';
+$lang['config_default_tax_rate_1']='Taxe 1';
+$lang['config_default_tax_rate_2']='Taxe 2';
+$lang['config_company_required']='Le champ Nom de compagnie est requis';//The good translation
+$lang['config_address_required']='Le champ Adresse est requis';//The good translation
+$lang['config_phone_required']='Le champ Teléphone est requis';//The good translation
+$lang['config_default_tax_rate_required']='Le champ taxe par défaut est obligatoire';//The good translation
+$lang['config_default_tax_rate_number']='La taxe par défaut doit être un chiffre';//The good translation
+$lang['config_company_website_url']='Le Site Web de la compagnie n\'est pas une URL valide (http://...)';//The good translation
+$lang['config_saved_successfully']='La Configuration est enregistré correctement';
+$lang['config_saved_unsuccessfully']='La Configuration n\'a pas été enregistré';
+$lang['config_return_policy_required']='le champ Politique de Retoure est obligatoire';//The good translation
+$lang['config_print_after_sale']='Impression du reçu apres vente';//The good translation
+$lang['config_language'] = 'Langue';
+$lang['config_timezone'] = 'Fuseau horaire';
+$lang['config_currency_symbol'] = 'Symbole monétaire';
+$lang['config_backup_database'] = 'sauvegarder la base de données';
+$lang['config_restore_database'] = 'Restaurer la base de données';
+$lang['config_mailchimp_api_key'] = 'Mailchimp API clef'; //The good translation
+$lang['config_number_of_items_per_page'] = 'Nombre d\'articles par page';
+$lang['config_date_format'] = 'Format de date';
+$lang['config_time_format'] = 'Format de l\'heure';
+$lang['config_company_logo'] = 'Logo de la compagnie';
+$lang['config_delete_logo'] = 'supprimer Logo';
+$lang['config_track_cash'] = 'Suivre l\'argent dans le registre';
+$lang['config_optimize_database'] = 'optimiser la base de données';
+$lang['config_database_optimize_successfully'] = 'Base de données optimisée avec succès';//The good translation
+$lang['config_payment_types'] = 'Types de paiement';
+$lang['select_sql_file'] = 'sélectionnez un fichier. sql';
+
+$lang['restore_heading'] = 'Cela vous permet de restaurer votre base de données';
+
+$lang['type_file'] = 'sélectionner. sql fichier de votre ordinateur';
+
+$lang['restore'] = 'restaurer';
+
+$lang['required_sql_file'] = 'Aucun fichier sql n\'est sélectionné';//The good translation
+
+$lang['restore_db_success'] = 'Base de données restaurée avec succès';//The good translation
+
+$lang['db_first_alert'] = 'Etes-vous sûr de vouloir restaurer la base de données?';//The good translation
+$lang['db_second_alert'] = 'Les données actuelles seront perdues, voulez-vous continuer?';//The good translation
+$lang['password_error'] = 'Mot de passe incorrect';
+$lang['password_required'] = 'Champ Mot de passe ne peut pas être vide';
+$lang['restore_database_title'] = 'Restaurer la base de données';
+$lang['config_use_scale_barcode'] = "Utilisez l'échelle de code à barres";
+$lang['config_enable_credit_card_processing'] = 'Activer le traitement de carte de crédit';
+$lang['config_environment'] = 'environnement';
+$lang['config_merchant_id'] = 'ID Marchand';
+$lang['config_merchant_password'] = 'Mot de passe marchand';
+$lang['config_sandbox'] = 'Bac de sable';//The good translation
+$lang['config_production'] = 'production';
+$lang['disable_confirmation_sale']='Désactiver la confirmation de la vente complète';
+$lang['receive_stock_alert'] = 'Recevoir des alertes par actions';
+$lang['stock_alert_email'] = 'Alerte Email Stock';
+$lang['sales_mercury_password_note'] = 'Mot de passe se trouve à Paramètres du compte région de Mercure gestion de leur site >>> Mot de passe HostedCheckout';
+
+$lang['config_default_payment_type'] = 'Type de paiement par défaut';
+$lang['config_speed_up_note'] = 'Que recommander si vous avez plus de 10.000 articles ou des clients';
+$lang['config_hide_signature'] = 'Masquer Signature';
+$lang['config_automatically_email_receipt']='La réception automatique des e-mail';
+$lang['config_barcode_price_include_tax']='Inclure taxe sur les codes à barres?';
+$lang['config_round_cash_on_sales'] = 'Arrondir au plus proche 0,05 lors de la réception';
+$lang['config_prefix'] = 'Vente Identification préfixe';
+$lang['config_sale_prefix_required'] = 'préfixe d&#39;ID de vente est un champ obligatoire';
+$lang['config_customers_store_accounts'] = 'Les clients sont stockés les comptes';
+$lang['config_change_sale_date_when_suspending'] = 'Changer la date de vente lors de la suspension vente';
+$lang['config_change_sale_date_when_completing_suspended_sale'] = 'Changer la date de vente au moment de remplir la vente suspendue';
+$lang['config_price_tiers'] = 'Prix ​​niveaux';
+$lang['config_add_tier'] = 'Ajouter palier';
+$lang['config_show_receipt_after_suspending_sale'] = 'Afficher réception après avoir suspendu la vente';
+$lang['config_backup_overview'] = 'Présentation de la sauvegarde';
+$lang['config_backup_overview_desc'] = 'Sauvegarde de vos données est très importante, mais peut être gênant avec une grande quantité de données. Si vous avez beaucoup d&#39;images, des objets et des ventes ce qui peut augmenter la taille de votre base de données.';
+$lang['config_backup_options'] = 'Nous offrons de nombreuses options pour la sauvegarde pour vous aider Décidée comment procéder';
+$lang['config_backup_simple_option'] = 'En cliquant sur &quot;base de données de sauvegarde&quot;. Cette tente de télécharger l&#39;ensemble de votre base de données dans un fichier. Si vous obtenez un écran blanc ou ne pouvez pas télécharger le fichier, essayez l&#39;une des autres options.';
+$lang['config_backup_phpmyadmin_1'] = 'PHPMyAdmin est un outil populaire pour la gestion de vos bases de données. Si vous utilisez la version de téléchargement avec l&#39;installateur, il est possible d&#39;accéder en allant à';
+$lang['config_backup_phpmyadmin_2'] = 'Votre nom d&#39;utilisateur est root et le mot de passe est ce que vous avez utilisé lors de l&#39;installation initiale de PHP POS. Une fois connecté, sélectionnez votre base de données à partir du panneau sur la gauche. Ensuite, sélectionnez l&#39;exportation et soumettre le formulaire.';
+$lang['config_backup_control_panel'] = 'Si vous avez installé sur votre propre serveur qui dispose d&#39;un panneau de contrôle comme cPanel, recherchez le module de sauvegarde qui sera souvent vous permettre de télécharger des sauvegardes de votre base de données.';
+$lang['config_backup_mysqldump'] = 'Si vous avez accès à la coque et mysqldump sur votre serveur, vous pouvez essayer de l&#39;exécuter en cliquant sur le lien ci-dessous. Sinon, vous devrez essayer d&#39;autres options.';
+$lang['config_mysqldump_failed'] = 'sauvegarde mysqldump a échoué. Cela pourrait être dû à une restriction de serveur ou de la commande peut ne pas être disponible. S&#39;il vous plaît essayer une autre méthode de sauvegarde';
+$lang['config_default_tax_rate_3'] = 'Taxe de 3 Taux';
+$lang['config_default_tax_rate_4'] = '4 Taux de l&#39;impôt';
+$lang['config_default_tax_rate_5'] = 'Taxe de 5 Taux';
+$lang['config_looking_for_location_settings'] = 'Vous cherchez d&#39;autres options de configuration? Allez à';
+$lang['config_module'] = 'Module';
+$lang['config_automatically_calculate_average_cost_price_from_receivings'] = 'Calculer le coût moyen Prix à partir de Receivings';
+$lang['config_averaging_method'] = 'Méthode moyenne';
+$lang['config_historical_average'] = 'Moyenne historique';
+$lang['config_moving_average'] = 'Moyenne mobile';
+$lang['config_timezone_required_field'] = 'Fuseau horaire est un champ obligatoire';
+$lang['config_hide_dashboard_statistics'] = 'Cachez Statistiques Tableau de bord';
+$lang['config_hide_store_account_payments_in_reports'] = 'Paiements de compte Masquer de magasin dans les rapports';
+?>

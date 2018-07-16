@@ -1,0 +1,29 @@
+<?php
+$lang['locations_location_id'] = 'Lokasi ID';
+$lang['locations_name'] = 'Nama';
+$lang['locations_address'] = 'Alamat';
+$lang['locations_phone'] = 'Telepon';
+$lang['locations_fax'] = 'Fax';
+$lang['locations_email'] = 'Email';
+$lang['locations_new'] = 'Lokasi baru';
+$lang['locations_update'] = 'Perbarui Lokasi';
+$lang['locations_delete'] = 'Hapus';
+$lang['locations_cleanup_old_locations'] = 'Bersihkan Lokasi Lama';
+$lang['locations_basic_information'] = 'Lokasi Informasi';
+$lang['locations_successful_adding'] = 'Anda telah berhasil menambahkan lokasi';
+$lang['locations_successful_updating'] = 'Anda telah berhasil memperbarui lokasi';
+$lang['locations_successful_deleted'] = 'Anda telah berhasil dihapus';
+$lang['locations_error_adding_updating'] = 'Kesalahan menambahkan / update lokasi';
+$lang['locatoins_name_required'] = 'Lokasi Nama diperlukan';
+$lang['locations_phone_required'] = 'Nomor telepon diperlukan';
+$lang['locations_phone_valid'] = 'Nomor telepon harus valid';
+$lang['locations_confirm_delete'] = 'Apakah Anda yakin ingin menghapus lokasi yang dipilih?';
+$lang['locations_successful_deleted'] = 'Anda telah berhasil dihapus';
+$lang['locations_one_or_multiple'] = 'lokasi (s)';
+$lang['locations_cannot_be_deleted'] = 'Tidak bisa dihapus lokasi terpilih';
+$lang['locations_adding_location_requires_addtional_license'] = 'Menambahkan lokasi lain membutuhkan lisensi lain';
+$lang['locations_confirm_purchase'] = 'Apakah Anda membeli lisensi tambahan untuk lokasi ini?';
+$lang['locations_purchase_email'] = 'Pembelian E-Mail';
+$lang['locations_invalid_email_or_dont_have_auth'] = 'Anda telah memasukkan email yang tidak valid atau tidak memiliki izin yang diperlukan untuk menambahkan lokasi ini. Silahkan hubungi support@phpsoftwares.com jika Anda percaya ini adalah sebuah kesalahan.';
+$lang['locations_purchase_additional_licenses'] = 'Pembelian Lisensi Tambahan';
+?>
